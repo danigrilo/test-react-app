@@ -5,6 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: danigrilo/test-react-app
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: test
+
 spec:
   type: website
   lifecycle: experimental
