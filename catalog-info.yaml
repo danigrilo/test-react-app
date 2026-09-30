@@ -5,7 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: danigrilo/test-react-app
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-namespace: danigrilo-dev
+    backstage.io/kubernetes-id: rhdh
+
 
 spec:
   type: website
