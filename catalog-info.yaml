@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "test"
-      annotations:
-      github.com/project-slug: danigrilo/test-react-app
-      backstage.io/techdocs-ref: dir:.
-      backstage.io/kubernetes-id: rhdh
-      backstage.io/kubernetes-namespace: danigrilo-dev
+  annotations:
+    github.com/project-slug: danigrilo/test-react-app
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: rhdh
+    backstage.io/kubernetes-namespace: danigrilo-dev
 spec:
   type: website
   lifecycle: experimental
