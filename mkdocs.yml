@@ -10,3 +10,12 @@ nav:
 
 plugins:
   - techdocs-core
+  # Renders ```mermaid blocks to SVG at build time. http_method POST makes the
+  # plugin download the SVG into the built site; the default GET would embed
+  # a kroki.io image URL, which RHDH's Content-Security-Policy blocks.
+  - kroki:
+      server_url: https://kroki.io
+      fence_prefix: ''
+      http_method: POST
+      file_types:
+        - svg
