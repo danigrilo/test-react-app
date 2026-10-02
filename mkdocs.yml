@@ -3,6 +3,7 @@ site_description:
 
 nav:
   - Introduction: index.md
+  - Architecture: architecture.md
   - Architecture Decisions:
       - Overview: adrs/index.md
       - "0001 Use React": adrs/0001-use-react.md
