@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wrike-api
+  description: Wrike task management REST API (minimal definition, Get Tasks only)
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: group:default/danigrilo
+  definition:
+    $text: https://raw.githubusercontent.com/danigrilo/test-react-app/main/wrike-openapi.yaml

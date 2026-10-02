@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Wrike API
+  version: v4
+  description: Minimal Wrike REST API definition for testing the Get Tasks endpoint from RHDH's API Explorer.
+servers:
+  - url: https://www.wrike.com/api/v4
+paths:
+  /tasks:
+    get:
+      summary: Get Tasks (Account)
+      description: Search among all tasks in the current Wrike account.
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Successful response with task list.
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
