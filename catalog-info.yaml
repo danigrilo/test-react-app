@@ -7,6 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: rhdh
     backstage.io/kubernetes-namespace: danigrilo-dev
+    backstage.io/adr-location: docs/adrs
 spec:
   type: website
   lifecycle: experimental
