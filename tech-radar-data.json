@@ -1,0 +1,66 @@
+{
+  "quadrants": [
+    { "id": "languages", "name": "Languages & Frameworks" },
+    { "id": "infrastructure", "name": "Infrastructure" },
+    { "id": "tools", "name": "Supporting Tools" },
+    { "id": "process", "name": "Process" }
+  ],
+  "rings": [
+    { "id": "adopt", "name": "ADOPT", "color": "#5ba300" },
+    { "id": "trial", "name": "TRIAL", "color": "#009eb0" },
+    { "id": "assess", "name": "ASSESS", "color": "#c7ba00" },
+    { "id": "hold", "name": "HOLD", "color": "#e09b96" }
+  ],
+  "entries": [
+    {
+      "key": "typescript",
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages",
+      "timeline": [
+        { "moved": 0, "ringId": "adopt", "date": "2026-01-01", "description": "Adopted as the default language." }
+      ],
+      "url": "#"
+    },
+    {
+      "key": "react",
+      "id": "react",
+      "title": "React",
+      "quadrant": "languages",
+      "timeline": [
+        { "moved": 0, "ringId": "adopt", "date": "2026-01-01", "description": "Adopted for frontend development." }
+      ],
+      "url": "#"
+    },
+    {
+      "key": "kubernetes",
+      "id": "kubernetes",
+      "title": "Kubernetes",
+      "quadrant": "infrastructure",
+      "timeline": [
+        { "moved": 0, "ringId": "adopt", "date": "2026-01-01", "description": "Adopted for container orchestration." }
+      ],
+      "url": "#"
+    },
+    {
+      "key": "backstage",
+      "id": "backstage",
+      "title": "Backstage / RHDH",
+      "quadrant": "tools",
+      "timeline": [
+        { "moved": 1, "ringId": "trial", "date": "2026-01-01", "description": "Trialing as the developer portal." }
+      ],
+      "url": "#"
+    },
+    {
+      "key": "docker",
+      "id": "docker",
+      "title": "Docker",
+      "quadrant": "tools",
+      "timeline": [
+        { "moved": 0, "ringId": "adopt", "date": "2026-01-01", "description": "Adopted for local development." }
+      ],
+      "url": "#"
+    }
+  ]
+}
