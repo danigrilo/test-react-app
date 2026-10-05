@@ -12,3 +12,20 @@ spec:
   type: website
   lifecycle: experimental
   owner: "group:default/danigrilo"
+  consumesApis:
+    - wrike-api
+
+---
+# Lives in this file (not a separate one) so GitHub discovery re-registers it
+# automatically after every restart.
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wrike-api
+  description: Wrike task management REST API (minimal definition, Get Tasks only)
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: group:default/danigrilo
+  definition:
+    $text: https://raw.githubusercontent.com/danigrilo/test-react-app/main/wrike-openapi.yaml

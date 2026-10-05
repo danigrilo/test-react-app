@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: danigrilo
-  description: Personal account group, used as the owner of test-react-app
-spec:
-  type: team
-  children: []
